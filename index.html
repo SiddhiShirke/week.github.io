@@ -1,8 +1,16 @@
 <html>
     <script>
-
+const hellospeacker=
+      {
+          speakWord:'Hello'
+      }
+const byespeacker=
+      {
+          speakWord:'Good Bye'
+      }
         
-        var txt = ["Ram", "John", "Sita"];
+        var txt = ["Yaakov","Jen","Jason","Paul","Frank","Larry","Paula","Laura","Jim"];
+
 var x;
 var firs;
 var low;
@@ -10,12 +18,14 @@ for (x of txt) {
     firs = x.toLowerCase();
     low = firs.charAt(0);
     if (low=='j'){
-  document.write("Goodbye "+ "J"+x +"<br>");
+  document.write(byespeacker.speakWord + "  "+ x +"<br>");
         
 }
     else{
-        document.write("Hello "+x+"<br>");
+        document.write(hellospeacker.speakWord +" "+x+"<br>");
     }
 }
 </script>
 </html>
+
+
